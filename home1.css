@@ -1,0 +1,444 @@
+@font-face {
+  font-family: Flood;
+  src: url("Flood\ Std\ Regular/f1.otf") format("opentype");
+}
+* {
+  box-sizing: border-box;
+  color:#354463;
+}
+.firstblock {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  column-gap: 200px;
+  align-content: center;
+}
+.firstblock .c1 {
+  justify-content: center;
+  align-content: center;
+  color: rgb(0, 27, 95);
+}
+.firstblock .c2 {
+  align-content: stretch;
+  color: rgb(6, 114, 176);
+}
+.firstblock .c3 {
+  background-color: aqua;
+  align-content: center;
+  padding: 10px;
+  border-radius: 60px;
+  color: rgb(0, 27, 95);
+  padding-left: 60px;
+  padding-right: 60px;
+  border-bottom: 10px;
+}
+fieldset{
+border: 0ch;
+}
+header {
+display: grid;
+grid-template-columns: 2fr 1fr;
+color: #354463; 
+}
+
+header>h1{
+margin-top: 0px;
+}
+
+.contact > a{
+display: block;
+margin-top: 0px;
+padding: 10px;
+text-align: end;
+
+}
+.container{
+margin-top: 10px;
+}
+.donate{
+text-align: center;
+}
+.donate > button{
+background: #C1F7D5 0% 0% no-repeat padding-box;
+color:#354463;
+font: normal normal bold 18px/22px Helvetica;;
+letter-spacing: 0px;
+height: 40px;
+border: 0ch;
+width: 500px;
+border-radius: 100px;
+opacity: 1;
+}
+button{
+background: #C1F7D5 0% 0% no-repeat padding-box;
+color:#354463;
+font: normal normal bold 18px/22px Helvetica;;
+letter-spacing: 0px;
+height: 40px;
+border: 0ch;
+width: 300px;
+border-radius: 100px;
+opacity: 1;
+}
+.issue{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+height: 592px;
+background-image: url('annie-spratt-135307-unsplash.png');
+background-size:  100% 592px;
+
+
+}
+
+.issue h2{
+font-family:Flood ;
+margin-right: 100px;
+width: 181px;
+height: 136px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 44px/46px Flood ;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.issue fieldset{
+ 
+  width: 312px;
+  height: 240px;
+  
+  /* UI Properties */
+  
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.issue > p{
+
+  width: 278px;
+  height: 78px;
+  
+  /* UI Properties */
+  
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  }
+.take-action{
+background-color: #C1F7D5;
+}
+.take-action legend{
+position: absolute;
+margin-top: -25px;
+margin-left: calc(40% - 100px);
+}
+.take-action-container{
+margin:25px;
+display: grid;
+grid-template-columns: 1fr 1fr ;
+column-gap: 20px;
+row-gap: 20px;
+text-align: left;
+}
+.take-action-container>div:nth-child(4){
+text-align: left;
+}
+
+legend {
+background-color: #354463;
+color: #FFFFFF;
+width: 160px;
+height: 40px;
+padding:10px;
+opacity: 1;
+text-align: center;
+font: normal normal normal 14px/17px Helvetica;
+letter-spacing: 0.56px;
+}
+
+.what-we-do{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+background-color: #354463;
+}
+.what-we-do .class1 legend{
+height: 176px;
+width: 248px;
+background-image: url('tree-planting@3x.png');
+background-size: 176px 248px;
+}
+.what-we-do .class2 legend{
+height: 176px;
+width: 248px;
+background-image: url('education-training@3x.png');
+background-size: 176px 248px;
+}
+.what-we-do .class3 legend  {
+height: 176px;
+width: 248px;
+background-image: url('advocacy@3x.png');
+background-size: 176px 248px;
+}
+
+.what-we-do h2:nth-child(1){
+width: 160px;
+height: 40px;
+text-align: center;
+padding: 10px;
+font: normal normal normal 14px/17px Helvetica;
+letter-spacing: 0.56px;
+margin-top: 40px;
+background-color: #FFFFFF;
+
+}
+.what-we-do p{
+
+width: 302px;
+height: 134px;
+/* UI Properties */
+text-align: center;
+font: normal normal bold 22px/28px Helvetica;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.what-we-do fieldset{
+border: none;
+background-color: #FFFFFF;
+width: 312px;
+height: auto;
+text-align: center;
+}
+
+.what-we-do-container{
+display: flex;
+flex-direction: column;
+margin-bottom: 40px;
+row-gap: 40px;
+} 
+.what-we-do-container p{
+
+height: 94px;
+font: normal normal 300 14px/20px Helvetica;
+letter-spacing: -0.14px;
+color: #354463;
+
+
+}
+.what-do-you-know{
+display: flex;
+flex-direction: column;
+
+align-items: center;
+background-image: url('did-you-know-background@3x.png');
+background-size: 100% 100%;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.what-do-you-know fieldset{
+
+background-color: #FFFFFF;
+margin-top: 20px;
+
+width: 312px;
+}
+.what-do-you-know button{
+width: 152px;
+height: 40px;
+top: -30px;
+font: normal normal bold 16px/20px Helvetica;
+position: relative;
+right: 80px;
+}
+.what-do-you-know >h2{
+font-family:Flood ;
+width: 312px;
+height: 192px;
+/* UI Properties */
+
+font: normal normal normal 44px/46px Flood ;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.stories{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 40px;
+padding-bottom: 40px;
+row-gap: 40px;
+
+}
+.stories fieldset{
+height: 312px;
+width: 312px;
+background-image: url('lady-baby@3x.png');
+background-size: 312px 312px;
+}
+
+.story-textbox{
+
+background-color: #354463;
+height: 296px;
+width: 312px;
+
+}
+.story-textbox p:nth-child(1){
+
+position: relative;
+height: 203px;
+width: 248px;
+text-align: center;
+font: normal normal bold 22px/28px Helvetica;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+left:30px;
+}
+.story-textbox p:nth-child(2){
+height: 18px;
+
+text-align: center;
+font: normal normal normal 11px/13px Helvetica;
+letter-spacing: 0.44px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.event{
+
+background-color:#354463 ;
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 20px;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.event h2 {
+height: 66px;
+width: 313px;
+text-align: center;
+font: normal normal bold 22px/28px Helvetica;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1
+}
+.event p{
+width: 313px;
+color:#FFFFFF;
+font: normal normal 300 16px/20px Helvetica;
+letter-spacing: -0.14px;
+text-align: center;
+opacity: 1;
+
+}
+.event fieldset{
+height: 312px;
+width: 312px;
+background-image: url('tree-planting@3x.png');
+background-size: 312px 312px;
+}
+.event fieldset legend{
+background-color: #FFFFFF;
+color: #354463;  
+}
+.event h2:nth-child(1){
+font-family:Flood ;
+height: 136px;
+width:312px;
+font: normal normal normal 44px/46px Flood ;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+text-align: center;
+}
+.latest-news{
+background-color: #354463;
+}
+.subscribe{
+background-color: #C1F7D5;
+}
+
+.latest-news{
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 20px;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.latest-news fieldset{
+height: 312px;
+width: 312px;
+background-image: url('tree-planting@3x.png');
+background-size: 312px 312px;
+}
+.latest-news h2 {
+height: 66px;
+width: 313px;
+text-align: center;
+font: normal normal bold 22px/28px Helvetica;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1
+}
+.latest-news p{
+width: 313px;
+color:#FFFFFF;
+font: normal normal 300 16px/20px Helvetica;
+letter-spacing: -0.14px;
+text-align: center;
+opacity: 1;
+}
+
+.latest-news fieldset legend{
+background-color: #FFFFFF;
+color: #354463;  
+}
+.subscribe{
+
+padding: 18px;
+
+}
+.subscribe h2{
+width: 322px;
+}
+.subscribe button{
+width: 112px;
+height: 40px;
+margin-left: 3.5px;
+background-color: #354463;
+color: #C1F7D5;
+font: normal normal bold 16px/19px Helvetica;
+}
+.subscribe input{
+width: 192px;
+height: 40px;
+border: 0ch;
+padding: 20px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 100px;
+}
+
+footer h2:nth-child(2){
+font-family:Flood ;
+margin-right: 100px;
+width: 181px;
+height: 136px;
+
+text-align: left;
+font: normal normal normal 44px/46px Flood ;
+letter-spacing: 0px;
+color: #354463;
+opacity: 1;
+}

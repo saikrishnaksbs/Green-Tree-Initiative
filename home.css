@@ -1,0 +1,259 @@
+@font-face {
+  font-family: Flood;
+  src: url("Flood\ Std\ Regular/f1.otf") format("opentype");
+}
+* {
+  box-sizing: border-box;
+  padding: 0%;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  top: 0px;
+  left: 0px;
+
+  height: 200px;
+
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-color: rgb(11, 68, 117);
+}
+.The_Green_Trees_Initiative {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  height: 200px;
+  justify-content: center;
+  column-gap: 100px;
+}
+.Green_Trees {
+  /* UI Properties */
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #354463;
+  opacity: 1;
+}
+
+.aboutus {
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+.button {
+  top: 128px;
+  left: 32px;
+  width: 312px;
+  height: 40px;
+
+  /* UI Properties */
+
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* header block css completed*/
+
+.climate_change {
+  height: 592px;
+
+  /* UI Properties */
+
+  background: transparent url("annie-spratt-135307-unsplash.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 0.76;
+  color: black;
+  background-repeat: no-repeat;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  row-gap: 136px;
+  background-size: 100% 600px;
+}
+
+.climate_change_item {
+  /* UI Properties */
+
+  width: 181px;
+  height: 136px;
+
+  position: relative;
+  top: 10px;
+  left: -60px;
+
+  text-align: left;
+  font: normal normal normal 44px/46px Flood Std;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-family: Flood;
+}
+.THE_ISSUE {
+  top: 504px;
+  left: 32px;
+  width: 300px;
+  height: 264px;
+  text-align: center;
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+fieldset {
+  top: 544px;
+  left: 64px;
+  width: 270px;
+  height: 150px;
+  /* UI Properties */
+
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  border: #ffffff;
+  padding-left: 5px;
+  padding-top: 35px;
+}
+legend {
+  margin-top: -20px;
+  margin-left: 65px;
+  color: rgb(243, 243, 243);
+  font-size: 20px;
+  text-transform: capitalize;
+  width: 160px;
+  height: 40px;
+  padding-top: 5px;
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 5;
+}
+
+/* Take issue block */
+
+.take_action {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 328px;
+
+  /* UI Properties */
+
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  column-gap: 10px;
+  column-gap: 10px;
+  align-content: center;
+  justify-content: center;
+}
+.take-action .values {
+  width: 144px;
+  height: 95px;
+
+  /* UI Properties */
+
+  opacity: 1;
+  /* UI Properties */
+
+  text-align: left;
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+.take_action > legend {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: calc(50% - 300px);
+  color: rgb(243, 243, 243);
+  font-size: 20px;
+  text-transform: capitalize;
+  width: 150px;
+  height: 40px;
+  padding-top: 5px;
+  text-align: center;
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 5;
+}
+button {
+  background: #ededed 0% 0% no-repeat padding-box;
+  opacity: 5;
+  padding: 8px;
+  text-align: center;
+  margin-left: 10px;
+  color: rgb(10, 79, 228);
+  font-size: 15px;
+}
+.what_to_do {
+  height: 7224px;
+
+  /* UI Properties */
+
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 300;
+  /* UI Properties */
+
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-align: center;
+}
+.initiative1 > fieldset {
+  /* 
+
+
+  /* text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  border: #ffffff;
+  padding-left: 5px;
+  padding-top: 35px; */
+
+  width: 312px;
+  height: 415px;
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.initiative1 legend {
+  /* 
+   margin-top: -20px;
+  margin-left: 65px;
+  color: rgb(243, 243, 243);
+  font-size: 20px;
+  text-transform: capitalize;
+  width: 160px;
+  height: 40px;
+  padding-top: 5px;
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 5;
+  
+  */
+  padding: 10px;
+  opacity: 1;
+  text-align: center;
+  height: 176px;
+  width: 248px;
+  background-image: url("tree-planting@3x.png");
+  background-size: 176px 248px;
+  margin-left: calc(50% - 300px);
+  
+}
